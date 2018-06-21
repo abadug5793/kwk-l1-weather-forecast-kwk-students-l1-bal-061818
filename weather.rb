@@ -7,13 +7,13 @@ $weather = {
 }
 
 # 1. Complete the method below called location, that accepts a hash called weather as an argument so that it returns the value of city from the weather hash.
-def location
+def location(weather)
 	return $weather[:city]
 end
 location
 # 2. Using the location method as a guide, write a  method called "description" so it returns the description from the weather hash.
-def description
-	return $weather[:description]
+def description(weather)
+	return weather[:description]
 end
 description
 
